@@ -1,0 +1,102 @@
+
+
+
+
+#footer{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    border-top: 2px solid #444;
+}
+#left{
+    width: 50%;
+    height: 100%;
+   border-right: 2px solid #555;
+    display: flex;
+    align-items: center;
+    padding: 3vw 0;
+    flex-direction: column;
+    color: #fff;
+}
+#left>h1{
+    position: relative;
+    font-size: 4vw;
+    font-weight: 450;
+}
+#footimg{
+    width: 250px;
+    height: 250px;
+     background-image: url(https://assets.website-files.com/6205ecdcec584c56193d6121/6246217a2a1efb208cb41ffa_badge-fueled_news.svg);
+    position: relative;
+    top: 50px;
+    background-position: center;
+    background-size: cover;
+}
+#footcon{
+    position: relative;
+    top: 150px;
+    font-size: 15px;
+    color: #fff;
+     width: 65%;
+}
+#footcon>h3{
+    font-weight: 300;
+}
+#footcon>span{
+    width: 100%;
+    height: 2px;
+    background-color: #444;
+    display: flex;
+}
+#left>button{
+    font-size: 2vw;
+    background-color: #000;
+    color: #fff;
+    font-weight: 300;
+    padding: 0 10px;
+    border-radius: 30px;
+    border: 1px solid #444;
+    position: relative;
+    top: 180px;
+}
+
+#left>p{
+    text-align: center;
+}
+#right{
+    width: 50%;
+    height: 100%;
+    color: #fff;
+}
+
+.tags{
+    width: 100%;
+    height: calc(100%/9);
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #555;
+    position: relative;
+}
+.tags>h1{
+    font-size: 2.5vw;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.opener{
+    width: 100%;
+    height: 0;
+    background-color: #fff;
+    position: absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+}
+.tags:hover  h1{
+    color: #000;
+    z-index: 9999999;
+}
+.tags:hover .opener{
+    cursor: pointer;
+    height: 100%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+ 
