@@ -255,7 +255,7 @@ i#movingarow{
     height: 60px;
     
     position: absolute;
-    bottom: -10%;
+    bottom: -25%;
     align-items: center;
     display: flex;
     padding: 0 3vw;
@@ -557,5 +557,63 @@ i#movingarow{
     #orbital{
         height: initial;
     }
-    
+    #orbitalvideo{
+        height: 55vh;
+       overflow: initial;
+        position: relative;
+    }
+    #orbitalvideo video{
+        width: 100%;
+    }
+    #slides{
+         flex-direction: column;
+         height: initial;
+         align-items: center;
+         justify-content: center;
+    }
+    .slide{
+        width: 100%;
+        height: 25vh;
+    }
+    .arrow{
+        margin-top: 6px;
+    }
+    .opening{
+        width: 100%;
+        height: 0;
+    }
+    .slide:hover .opening{
+        height: 100%;
+    }
+    .tile{
+        align-items: center;
+    }
+    #videoslide{
+        display: none;
+    }
+    #desc{
+        height: 39vh;
+    }
+    #desc>h1{
+        font-size: 8vw;
+    }
+    .branddesc{
+        height: 60vh;
+        flex-direction: column;
+    }
+    .brands{
+        width: 100%;
+        height: 100%;
+    }
+    #footer{
+        flex-direction: column;
+    }
+    #left{
+        width: 100%;
+    }
+    #right{
+        width: 100%;
+        border-top: 2px solid #444;
+        margin-top: 50vw;
+    }
 }
