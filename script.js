@@ -67,13 +67,8 @@ function textanimationcode(){
         duration:2,
         delay:1
     })
-}
-function scrolltextanimation(){
-    
+} 
 
-}
-
-scrolltextanimation();
 textanimationcode();
 slidesHandle();
 locomotivejs()

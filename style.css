@@ -532,6 +532,30 @@ i#movingarow{
         top: 15%;
     }
     #hero p{
-        bottom: 0;
+        position: relative;
+        bottom: -10px;
     }
+    #maincontent{
+        margin-top: 30vh;
+    }
+    #textcontainer{
+        padding: 5vw;
+        height: 25vh;
+    }
+    #textcontainer>h2{
+        font-size: 5vw;
+    }
+    .rowtxt>h1{
+        font-size: 18vw;
+        line-height: 17vw;
+    }
+    .rowtxt span{
+        font-size: 13px;
+        padding: 8px 11px;
+        margin-left: 5px;
+    }
+    #orbital{
+        height: initial;
+    }
+    
 }
