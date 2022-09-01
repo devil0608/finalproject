@@ -120,7 +120,12 @@ html,body{
     padding: 3vw;
     background-color: #000;
 }
-#textcontainer>h2{
+#tex{
+    width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+}
+#tex>h2{
     font-weight: 500;
     font-size: 3vw;
 }
