@@ -68,7 +68,6 @@ function textanimationcode(){
         delay:1
     })
 }
-
 textanimationcode();
 slidesHandle();
 locomotivejs()
